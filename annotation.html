@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مجتمع - MCS</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!-- المحتوى الرئيسي -->
+    <div class="container">
+        <!-- الهيدر -->
+        <header class="header">
+            <div class="logo">
+                <img src="images/annotation.jpg" alt="شعار MCS">
+            </div>
+            <h1 class="page-title">شروحات MCS</h1>
+        </header>
+         
+         
+         <div class="sections-grid"><br>
+                
+                <div class="section-card">
+                    <div class="logo"><img src="images/friends.jpg" alt="صورة" width="200" height="200" class="logo"></div>
+                    <h3>شرح اللعب مع صديق</h3>
+                    <a href="playWithfri.html" class="nav-item"><button class="download-btn">قراءة</button></a>
+                </div>
+                
+                <div class="section-card">
+                    <div class="logo"><img src="images/account.jpeg" alt="صورة" width="200" height="200" class="logo"></div>
+                    <h3>شرح إنشاء حساب ماين كرافت</h3>
+                    <a href="account.html" class="nav-item"><button class="download-btn">قراءة</button></a>
+                </div>
+                
+                <div class="section-card">
+                    <div class="logo"><img src="images/tatoir.png" alt="صورة" width="200" height="200" class="logo"></div>
+                    <h3>شرح التطويرات</h3>
+                    <a href="Evolution.html" class="nav-item"><button class="download-btn">قراءة</button></a>
+                </div>
+                
+                <div class="section-card">
+                    <div class="logo"><img src="images/redstone2.jpg" alt="صورة" width="200" height="200" class="logo"></div>
+                    <h3>شرح الريدستون</h3>
+                    <a href="RedStone.html" class="nav-item"><button class="download-btn">قراءة</button></a>
+                </div>
+                
+                <div class="section-card">
+                    <div class="logo"><img src="images/comannd.jpg" alt="صورة" width="200" height="200" class="logo"></div>
+                    <h3>شرح الكوماند بلوك</h3>
+                    <a href="Commands.html" class="nav-item"><button class="download-btn">قراءة</button></a>
+                </div>
+                
+                <div class="section-card">
+                    <div class="logo"><img src="images/potion.jpg" alt="صورة" width="200" height="200" class="logo"></div>
+                    <h3>شرح البوشينز</h3>
+                    <a href="potions.html" class="nav-item"><button class="download-btn">قراءة</button></a>
+                </div>
+                
+                <div class="section-card">
+                    <div class="logo"><img src="images/pvp.jpg" alt="صورة" width="200" height="200" class="logo"></div>
+                    <h3>نصائح المواجهات (PVP)</h3>
+                    <a href="PVP.html" class="nav-item"><button class="download-btn">قراءة</button></a>
+                </div>
+                
+                <!--<div class="section-card">
+                    <div class="logo"><img src="images/farms.jpg" alt="صورة" width="200" height="200" class="logo"></div>
+                    <h3>شرح الفارمات</h3>
+                    <a href="index.html" class="nav-item"><button class="download-btn">قراءة</button></a>
+            
+                </div>-->
+                
+                <div class="section-card">
+                    <div class="logo"><img src="images/lists.jpg" alt="صورة" width="200" height="200" class="logo"></div>
+                    <h3>شرح بعض آلات ماين كرافت (شرح بالصور)</h3>
+                    <a href="Explanation_machines.html" class="nav-item"><button class="download-btn">قراءة</button></a>
+                </div>
+                
+                
+            
+                
+         
+         
+        <!-- قسم الأخبار -->
+        <main class="news-content">
+            <div id="newsContainer" class="news-container">
+                <!-- سيتم تعبئة الأخبار هنا ديناميكياً من السيرفر -->
+            </div>
+            
+            
+
+            <!-- حالة عدم وجود أخبار -->
+            <div id="emptyState" class="empty-state" style="display: none;">
+                <div class="empty-icon">📰</div>
+                <h3>لا توجد أخبار حالياً</h3>
+                <p>لم يتم إضافة أي أخبار حتى الآن</p>
+            </div>
+        </main>
+    </div>
+
+    <!-- الشريط السفلي الثابت -->
+    <nav class="bottom-nav">
+        <a href="index.html" class="nav-item">
+            <img src="images/home.png" alt="الرئيسية" class="nav-icon">
+            <span>الرئيسية</span>
+        </a>
+        <a href="news.html" class="nav-item">
+            <img src="images/news.png" alt="الأخبار" class="nav-icon">
+            <span>الأخبار</span>
+        </a>
+        <a href="download.html" class="nav-item">
+            <img src="images/download.png" alt="التحميل" class="nav-icon">
+            <span>التحميل</span>
+        </a>
+        <a href="about.html" class="nav-item">
+            <img src="images/about.png" alt="حول الموقع" class="nav-icon">
+            <span>حول</span>
+        </a>
+    </nav>
+<style>
+    
+/* تنسيقات زر التحميل */
+.download-button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.download-btn {
+    display: inline-block;
+    background: #ffd700;
+    color: #1e3c72;
+    padding: 12px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.download-btn:hover {
+    background: #ffed4a;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.download-btn:active {
+    transform: translateY(0);
+}
+
+/* نضمن أن الزر يبدو جيداً على الشاشات الصغيرة */
+@media (max-width: 768px) {
+    .download-btn {
+        padding: 10px 25px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .download-btn {
+        padding: 8px 20px;
+        font-size: 0.9rem;
+    }
+}
+</style>
+    <script src=""></script>
+</body>
+</html>

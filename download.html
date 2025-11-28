@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>التحميل - MCS</title>
+    <link rel="stylesheet" href="download-style.css">
+</head>
+<body>
+    <!-- المحتوى الرئيسي -->
+    <div class="container">
+        <!-- الهيدر -->
+        <header class="header">
+            <div class="logo">
+                <img src="images/download.png" alt="شعار MCS">
+            </div>
+            <h1 class="page-title">التحميل</h1>
+        </header>
+    
+        <!-- قسم إصدارات التحميل -->
+        <main class="news-content">
+            <div id="newsContainer" class="news-container">
+                <!-- سيتم تعبئة الإصدارات هنا ديناميكياً من السيرفر -->
+            </div>
+
+            <!-- حالة عدم وجود إصدارات -->
+            <div id="emptyState" class="empty-state" style="display: none;">
+                <div class="empty-icon">📦</div> <!-- تغيير الأيقونة لرمز الصندوق -->
+                <h3>لا توجد إصدارات متوفرة حالياً</h3>
+                <p>لم يتم إضافة أي إصدارات حتى الآن</p>
+            </div>
+        </main>
+    </div>
+
+    <!-- الشريط السفلي الثابت -->
+    <nav class="bottom-nav">
+        <a href="index.html" class="nav-item">
+            <img src="images/home.png" alt="الرئيسية" class="nav-icon">
+            <span>الرئيسية</span>
+        </a>
+        <a href="news.html" class="nav-item">
+            <img src="images/news.png" alt="الأخبار" class="nav-icon">
+            <span>الأخبار</span>
+        </a>
+        <a href="download.html" class="nav-item active">
+            <img src="images/download.png" alt="التحميل" class="nav-icon">
+            <span>التحميل</span>
+        </a>
+        <a href="about.html" class="nav-item">
+            <img src="images/about.png" alt="حول الموقع" class="nav-icon">
+            <span>حول</span>
+        </a>
+    </nav>
+
+    <script src="download-script.js"></script>
+</body>
+</html>
